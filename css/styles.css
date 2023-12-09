@@ -30,13 +30,6 @@ ul {
   margin: 0;
 }
 
-/* ul {
-  margin-top: 0;
-  margin-bottom: 0;
-padding-left: 0;
-}
- */
-
 h1,
 h2,
 h3,
@@ -88,14 +81,6 @@ img {
   margin: 0 auto;
   padding: 0 15px;
   max-width: 1158px;
-  /* для центрування контейнера на сторінці*/
-  /* Для цього класу заданий стиль */
-  /*для налаштування внутрішніх відступів для контенту (можна використовувати запис */
-  /*
-  padding: 0 15px 0 15px;
-  padding-left: 15px;
-  padding-right: 15px;
-*/
 }
 
 /* #endregion: base */
@@ -118,45 +103,14 @@ img {
   padding: 2px 8px;
 }
 
-/*
-Для хедера в класі заданий стиль 
-для визначення тіні для елемента У першому пункті меню,
-у посилання задані класи,
-що мають мінімум 3 символи,
-всі літери латиницею,
-всі літери маленькі,
-та можуть містити дефіс чи нижнє підкреслення У першому пункті меню у посилання в класі заданий стиль position: relative;
-для встановлення позиціонування елемента відносно його звичайного місця в потоці документу У першому пункті меню у посилання в класі заданий стиль color: #404bbf;
-для визначення кольору тексту До класу з псевдоелементом ::after додана властивість content: '' для встановлення вмісту,
-який має бути відображений в псевдоелементі До класу з псевдоелементом ::after додана властивість position: absolute;
-яка встановлює позиції елемента відносно його батьківського елемента До класу з псевдоелементом ::after додана властивість left: 0;
-для встановлення відстані між лівим краєм елемента і лівим краєм його батьківського елемента До класу з псевдоелементом ::after додана властивість bottom: -1px;
-для встановлення відстані між нижнім краєм елемента і нижнім краєм його батьківського елемента До класу з псевдоелементом ::after додана властивість height: 4px;
-для визначення висоти елемента До класу з псевдоелементом ::after додана властивість background-color: #404bbf;
-для визначення кольору фону елемента До класу з псевдоелементом ::after додана властивість border-radius: 2px;
-для визначення радіусу закруглення кутів елемента У першому пункті меню у посилання в класі заданий стиль transition зі значенням color 250ms cubic-bezier(0.4, 0, 0.2, 1) для плавної зміни кольору текстового контенту У першому пункті списку з контактами у посиланні в класі заданий стиль transition зі значенням color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-для плавної зміни кольору текстового контенту У другому пункті списку з контактами,
-у посиланні,
-використовується такий самий клас як і в посиланні в першому пункті У другому пункті меню,
-у посилання задані класи,
-що мають мінімум 3 символи,
-всі літери латиницею,
-всі літери маленькі,
-та можуть містити дефіс чи нижнє підкреслення У другому пункті списку з контактами у посиланні в класі заданий стиль transition зі значенням color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-для плавної зміни кольору текстового контенту
-*/
+
 /* #region: header */
 .header {
-  position: sticky;
   top: -1;
-
-  /* position: fixed; */
-
+  position: sticky;
   background: var(--WHITE, #FFF);
-  /* border-bottom: 1px solid #e7e9fc; */
   border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
 
-  /* position: relative; */
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -164,8 +118,6 @@ img {
 
 
 .header-container {
-  /* position: absolute; */
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -184,7 +136,6 @@ img {
 .header-nav-items {
   display: flex;
   gap: 40px;
-  /* padding: 24px 0; */
 }
 
 .header-nav-item {
@@ -206,11 +157,8 @@ img {
 .header-nav-item:hover,
 .header-nav-item:focus {
   color: #404bbf;
-  /* color: darkorange; */
-  /* background-color: #d1d3d8; */
 }
 
-/* .header-nav-item::before {} */
 .main {
   color: #404bbf;
 }
@@ -225,7 +173,6 @@ img {
   background-color: #404bbf;
   border-radius: 2px;
   color: #404bbf;
-  /* transform: translateY(20px); */
   width: 100%;
 }
 
@@ -271,14 +218,8 @@ img {
 
 /* #region: section-hero  */
 /* url(../images/img-name.jpeg); */
-/* 
-          background-image: 
-          linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-           url(../images/img-name.jpg);
-           */
 
 .hero {
-  /* background-color: #2e2f42;*/
   margin: 0 auto;
   background-image:
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -287,8 +228,6 @@ img {
   background-position: center;
   background-color: #2e2f42;
   background-size: cover;
-
-  /* max-width: 1440px; */
 }
 
 .hero-header {
@@ -332,7 +271,6 @@ img {
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404BBF;
-  /* transform: rotate(111deg) */
 }
 
 /* #endregion: section-hero  */
@@ -342,7 +280,6 @@ img {
 .benefits {
   padding-top: 120px;
   padding-bottom: 120px;
-  /* padding: 120px 0; */
 }
 
 .benefits-items {
@@ -357,7 +294,6 @@ img {
   align-items: center;
 
   height: 112px;
-  /* flex-shrink: 0; */
   border-radius: 4px;
   border: 1px solid var(--LIGHT-SLATE, #8E8F99);
   background: var(--CLOUD, #F4F4FD);
@@ -438,34 +374,14 @@ img {
   background-color: #31D0AA;
 }
 
-*/
-/*
-.social-icon:hover,
-.social-icon:focus {
-}
- */
-
-/* .benefits-icon:hover,
-.benefits-icon:focus {
-  fill: red;
-  cursor: pointer;
-} */
 
 .benefits-item {
-  /* width: 240px; */
-  /* flex-basis: calc((100% - 72px) / 4); */
-  width: calc((100% - 72px) / 4);
+  /* width: calc((100% - 72px) / 4); */
+  width: calc((100% - var(--column-gap) * (var(--items) - 1)) / var(--items));
 }
 
 .benefits-item-header {
   margin-bottom: 8px;
-  /* 
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-*/
 }
 
 .benefits-item-text {
@@ -482,21 +398,8 @@ img {
 /* #region: section.#3:  Our Team */
 .team {
   background-color: #F4F4FD;
-  /* padding: 120px 0 */
-  /* padding: 120px 0 120px ; */
   padding-top: 120px;
   padding-bottom: 120px;
-
-  /*
-      background-color: #f4f4fd;
-        color: #2e2f42;
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-        padding: 120px 0;
-  */
 }
 
 .team-header {
@@ -512,7 +415,6 @@ img {
 
 .team-items {
   display: flex;
-  /* justify-content: center; */
   gap: 24px;
 }
 
@@ -522,32 +424,16 @@ img {
     0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
 
-  /* gap: 24px; */
-  /* margin: 12px; */
   background-color: #FFFFFF;
-
   border-radius: 0px 0px 4px 4px;
-  /*
-  Для першого елементу списку в класі заданий стиль border-radius: 0px 0px 4px 4px;
-    для визначення заокруглень внизу блока (можна використовувати border-top-left-radius: 0px; border-top-right-radius: 0px; border-top-right-radius: 4px; border-bottom-left-radius:4px; )
-    */
 }
 
 .team-item-info {
   text-align: center;
   padding: 32px 0;
-  /*
-  (можна використовувати аналог 
-  padding: 32px 0 32px 
-  або 
-  padding-top: 32px; 
-  padding-bottom: 32px; 
-  )*/
 }
 
-/* ToDo: makw as common class .item-header */
 .team-item-header {
-  /* text-align: center; */
   margin-bottom: 8px;
 
   font-size: 20px;
@@ -558,8 +444,6 @@ img {
 }
 
 .team-item-text {
-  /* text-align: center; */
-
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -573,14 +457,6 @@ img {
   padding-bottom: 120px;
 }
 
-/*
- .portfolio-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
- */
-
 .portfolio-header {
   font-size: 36px;
   font-weight: 500;
@@ -590,15 +466,12 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 72px;
-
-  /* padding: 120px 0 120px 0; */
-
 }
 
 .portfolio-items {
   --items: 3;
+
   display: flex;
-  /* justify-content: space-evenly; */
   flex-wrap: wrap;
   gap: 48px 24px;
   column-gap: 12px;
@@ -612,11 +485,6 @@ img {
 }
 
 .portfolio-item:hover {
-  /* При ховері,
-  в елементі списку,  у класі заданий стиль 
-  box-shadow: зі значенням 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  для визначення тіні для елемента при наведені мишкою 
-  */
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
@@ -624,14 +492,12 @@ img {
   transform: translateY(0);
 }
 
-
 .portfolio-img {
   position: relative;
   overflow: hidden;
 }
 
 .portfolio-img-overlay {
-  /* .portfolio-item-ing-text { */
   position: absolute;
   top: 0;
   left: 0;
@@ -746,88 +612,20 @@ text {
   margin-bottom: 16px;
 }
 
-/*
-.logo-box {
-  display: inline-flex;
-  align-items: center;
-  flex-shrink: 0;
-  height: 24px;
-}
-
-.logo-web {
-  color: var(--IRIS, #4D5AE5);
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 21px;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-}
-
-.logo-span-dark {
-  color: var(--NAVY-BLUE, #2E2F42);
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 21px;
-
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-}
-
-.logo-span-light {
-  color: var(--CLOUD, #F4F4FD);
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 21px;
-
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-}
-*/
 .logo {
   font-size: 18px;
   font-weight: 700;
   font-family: Raleway, sans-serif;
-  /* color: #4d5ae5; */
+
   color: var(--IRIS, #4D5AE5);
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  /* margin-right: 76px; */
+
 }
 
 .header-logo {
   margin-right: 76px;
 }
 
-/* #region: logo */
-/* 
-.logo {
-  color: #4d5ae5;
-  color: var(--IRIS, #4D5AE5);
-
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
- */
-/* 
-.header-logo::before {
-  content: "";
-  margin-right: 40px;
-}
- */
-/* 
-.logo>span {
-    color: #2e2f42;
-}
-*/
 /* #endregion: logo */
