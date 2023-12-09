@@ -1,4 +1,4 @@
-# goit-markup-hw-05 (generated from # goit-markup-hw-04)
+# goit-markup-hw-05 (generated from goit-markup-hw-04)
 - forms
 
 - Створи репозиторій goit-markup-hw-05.
