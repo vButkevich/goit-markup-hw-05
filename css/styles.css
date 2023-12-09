@@ -596,6 +596,9 @@ text {
   letter-spacing: 0.02em;
 }
 
+.social-media {
+  margin-right: 80px;
+}
 
 .social-media-header {
   color: var(--WHITE, #FFF);
@@ -629,3 +632,78 @@ text {
 }
 
 /* #endregion: logo */
+
+/* ------------------------------------------ */
+/* #region:subscribe */
+.subscribe {
+
+  width: 453px;
+}
+
+.subscribe-header {
+  color: var(--WHITE, #FFF);
+
+  /* Body Medium */
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.email input[type="text"] {
+  width: 264px;
+  border-radius: 4px;
+  border: 1px solid var(--WHITE, #FFF);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background-color: inherit;
+
+
+  color: var(--WHITE, #FFF);
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 200% */
+  letter-spacing: 0.48px;
+
+}
+
+.email [placeholder] {
+  color: var(--WHITE, #FFF);
+  font-family: Roboto;
+  font-size: 12px;
+  /* font-style: normal; */
+  font-weight: 400;
+  /* line-height: 24px; */
+  /* 200% */
+  letter-spacing: 0.48px;
+  padding: 6px 16px;
+}
+
+.email input[type="submit"] {
+  width: 165px;
+  height: 40px;
+  padding: 8px 24px;
+  background-color: #2e2f42;
+
+  display: inline-flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 4px;
+  background: var(--IRIS, #4D5AE5);
+}
+
+/* #endregion:subscribe */
+/* ------------------------------------------ */
