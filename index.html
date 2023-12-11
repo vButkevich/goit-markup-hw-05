@@ -57,7 +57,7 @@
     </header>
 
 
-    <div class="version">v:forms:2023.12.11:5.007</div>
+    <div class="version">v:forms:2023.12.11:5.009</div>
 
     <main>
 
@@ -575,16 +575,23 @@
                             Comment </label>
 
                         <div class="modal-window-form-div">
-                            <textarea id="user-comment" name="user-comment"
-                                class="modal-window-form-input textarea-user-comments" placeholder="Text input..."
-                                rows="5">
+                            <textarea id="user-comment" name="user-comment" class="modal-window-form-textarea"
+                                placeholder="Text input..." rows="5">
                             </textarea>
                         </div>
 
                         <div>
-                            <input type="checkbox" name="user-privacy" id="user-privacy" class="visually-hidden">
-                            <label for="user-privacy">I accept the terms and conditions of the</label>
+                            <input type="checkbox" name="user-privacy" id="user-privacy">
+                            <!-- class="visually-hidden">                            -->
+                            <label for="user-privacy">I accept the terms and conditions of the
+                                <a href="http://">Privacy Policy</a>
+
+                            </label>
                         </div>
+
+                        <button type="" class="modal-window-form-button">
+                            Send
+                        </button>
 
                     </div>
                 </form>
