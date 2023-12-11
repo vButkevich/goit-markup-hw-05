@@ -703,6 +703,11 @@ text {
   margin-left: 16px;
 }
 
+.subscribe-form-submit:hover,
+.subscribe-form-submit:focus {
+  fill: yellow;
+}
+
 /*
 .email {
   display: flex;
