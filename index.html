@@ -57,7 +57,7 @@
     </header>
 
 
-    <div class="version">v:forms:2023.12.11:5.004</div>
+    <div class="version">v:forms:2023.12.11:5.005</div>
 
     <main>
 
@@ -495,11 +495,19 @@
                 <p class="subscribe-header">Subscribe</p>
                 <form action="" class="subscribe-form">
                     <label class="subscribe-form-label">
-                        <input type="text" id="email" name="email" placeholder="E-mail" class="subscribe-form-input">
+                        <input type="email" id="email" name="email" placeholder="E-mail" class="subscribe-form-input">
                     </label>
-                    <div class="email">
-                        <input type="submit" value="Subscribe">
-                    </div>
+
+
+                    <button type="submit" class="subscribe-form-submit">
+                        Subscribe
+                        <svg class="subscribe-form-svg" width="24" height="24">
+                            <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+
+                        </a>
+                    </button>
+
 
                 </form>
             </div>
