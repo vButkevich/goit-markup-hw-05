@@ -885,6 +885,7 @@ text {
 }
 
 .modal-window-container {
+  /* БЛЯДЬ ! ! ! ! кто так пишет ВАШУ Ж МАТЬ!!!! */
   /*
  Для div модального вікна,
   у класі заданий стиль
@@ -939,6 +940,11 @@ text {
   padding-left: 38px;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-window-form-input:hover,
+.modal-window-form-input:focus {
+  border-color: #4D5AE5;
 }
 
 .modal-window-form-textarea {
@@ -1070,8 +1076,8 @@ text {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-window-form-input-name:hover svg,
-.modal-window-form-input-name:focus svg {
+.modal-window-form-input:hover svg,
+.modal-window-form-input:focus svg {
   fill: #4D5AE5;
 }
 
