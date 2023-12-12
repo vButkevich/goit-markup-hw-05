@@ -1118,10 +1118,12 @@ text {
   fill: transparent;
 }
 
-.modal-window-form-checkbox-svg {
+/*
+ .modal-window-form-checkbox-svg {
   width: 10px;
   height: 8px;
 }
+ */
 
 .modal-window-form-checkbox-input:checked {
   border: none;
