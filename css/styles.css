@@ -1065,7 +1065,9 @@ text {
   border-color: #4D5AE5;
 }
 
-.modal-window-form-name-svg {
+/*  */
+/* .modal-window-form-input-svg */
+.modal-window-form-svg {
   width: 18px;
   height: 24px;
   position: absolute;
