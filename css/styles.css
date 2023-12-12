@@ -914,7 +914,10 @@ text {
   margin-bottom: 16px;
 }
 
-.modal-window-form-container {
+/* .modal-window-form-container {
+  margin-bottom: 8px;
+} */
+.modal-window-form-input-box {
   margin-bottom: 8px;
 }
 
