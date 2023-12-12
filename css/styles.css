@@ -838,7 +838,8 @@ text {
   /* які елемент має від браузера У кнопки в класі задано стиль*/
   cursor: pointer;
   /* для визначення стилю курсору У кнопки в класі задано стиль*/
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition:
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -858,8 +859,8 @@ text {
 }
 
 .modal-window-svg {
-  width: 8px;
-  height: 8px;
+  /* width: 8px; */
+  /* height: 8px; */
 
 
   /* для обнулення значення бордеру при кліку на кнопку Всередині кнопки зберігається іконка зроблена тегом <svg>Для тега svg прописаний атрибут width, */
@@ -874,8 +875,8 @@ text {
 
 /* для плавної зміни кольору */
 
-.modal-window-button:hover+.modal-window-svg,
-.modal-window-button:focus+.modal-window-svg {
+.modal-window-button:hover .modal-window-svg,
+.modal-window-button:focus .modal-window-svg {
   fill: #ffffff;
 }
 
