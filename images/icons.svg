@@ -292,9 +292,8 @@
         </svg>
 -->
         <symbol id="icon-close-cross" viewBox="0 0 32 32">
-            <path id="Vector"
+            <path
                 d="M16 8.80571L15.1943 8L12 11.1943L8.80571 8L8 8.80571L11.1943 12L8 15.1943L8.80571 16L12 12.8057L15.1943 16L16 15.1943L12.8057 12L16 8.80571Z">
-                fill="#2E2F42"
             </path>
             <!-- fill="#2E2F42" -->
         </symbol>
