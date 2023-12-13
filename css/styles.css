@@ -1128,7 +1128,13 @@ text {
   height: 8px;
 }
  */
-.modal-window-form-checkbox-input:checked+span {
+.modal-window-form-checkbox-input:checked+.modal-window-form-checkbox-label-span {
+  background-color: #404bbf;
+  fill: #F4F4FD;
+  border: none;
+}
+
+.modal-window-form-checkbox-input:checked .modal-window-form-checkbox-label-span {
   background-color: #404bbf;
   fill: #F4F4FD;
   border: none;
