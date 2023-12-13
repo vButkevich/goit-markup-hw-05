@@ -1118,6 +1118,10 @@ text {
   fill: transparent;
 }
 
+.modal-window-form-checkbox-label>a {
+  color: #4d5ae5;
+}
+
 /*
  .modal-window-form-checkbox-svg {
   width: 10px;
