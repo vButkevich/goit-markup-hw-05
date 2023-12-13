@@ -1128,11 +1128,18 @@ text {
   height: 8px;
 }
  */
+.modal-window-form-checkbox-input:checked+span {
+  background-color: #404bbf;
+  fill: #F4F4FD;
+  border: none;
+}
 
+/* 
 .modal-window-form-checkbox-input:checked {
   border: none;
   fill: #404bbf;
 }
+*/
 
 /* та можуть містити дефіс чи нижнє підкреслення Для input у класі заданий стиль width: 100%; */
 /* що встановлює ширину елемента, */
