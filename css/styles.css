@@ -656,7 +656,7 @@ text {
   gap: 24px;
 }
 
-.subscribe-form-label {}
+/* .subscribe-form-label {} */
 
 .subscribe-form-input[id="email"] {
   width: 264px;
@@ -1014,6 +1014,7 @@ text {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   /*
   що дозволяє задавати анімаційний ефект для зміни значень властивостей стилю*/
+  margin: auto;
 }
 
 /*
@@ -1064,6 +1065,7 @@ text {
   fill: #4D5AE5;
 }
 
+
 /* modal-window-form-textarea-box */
 .modal-window-form-textarea-box {
   padding-bottom: 16px;
@@ -1097,7 +1099,7 @@ text {
   padding-bottom: 24px;
 }
 
-.modal-window-form-checkbox-input {}
+/* .modal-window-form-checkbox-input {} */
 
 .modal-window-form-checkbox-label {
   font-size: 12px;
@@ -1128,18 +1130,20 @@ text {
   height: 8px;
 }
  */
-.modal-window-form-checkbox-input:checked+.modal-window-form-checkbox-label-span {
+input[type="checkbox"]:checked+.modal-window-form-checkbox-label>.modal-window-form-checkbox-span {
   background-color: #404bbf;
-  fill: #F4F4FD;
   border: none;
+  fill: #f4f4fd;
 }
 
+
+/*
 .modal-window-form-checkbox-input:checked .modal-window-form-checkbox-label-span {
   background-color: #404bbf;
   fill: #F4F4FD;
   border: none;
 }
-
+*/
 /* 
 .modal-window-form-checkbox-input:checked {
   border: none;
