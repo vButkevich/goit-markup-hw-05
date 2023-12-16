@@ -107,8 +107,14 @@ img {
   background-color: orange;
   padding: 2px 8px;
   z-index: 11111;
+  border: 1px solid #404bbf;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 
+.version:hover {
+  transform: scale(1.2);
+}
 
 /* #region: header */
 .header {
@@ -881,8 +887,8 @@ text {
 
 /* для плавної зміни кольору */
 
-.modal-window-close:hover .modal-close-svg,
-.modal-window-close:focus .modal-close-svg {
+.modal-window-close:hover .modal-window-close-svg,
+.modal-window-close:focus .modal-window-close-svg {
   fill: #ffffff;
 }
 
