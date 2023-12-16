@@ -859,7 +859,7 @@ text {
 }
 
 .modal-window-close:hover,
-.modal-window-closen:focus {
+.modal-window-close:focus {
   /* що дозволяє задавати анімаційний ефект для зміни значень властивостей стилю При ховері на кнопку, */
   /* в класі заданий стиль*/
   background-color: #404bbf;
