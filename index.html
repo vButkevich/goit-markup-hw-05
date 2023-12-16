@@ -55,8 +55,7 @@
         </div>
     </header>
 
-
-    <div class="version">v:forms:2023.12.15:5.015</div>
+    <div id="version" class="version">v:forms:2023.12.16:5.019</div>
 
     <main>
 
@@ -514,13 +513,11 @@
     <!-- modal-form -->
     <div class="modal">
         <div class="modal-window">
-            <button class="modal-window-button" type="button">
-                <svg class="modal-window-svg" width="8" height="8">
+            <button class="modal-window-close" type="button">
+                <svg class="modal-window-close-svg" width="8" height="8">
                     <use href="./images/icons.svg#icon-close"></use>
                 </svg>
             </button>
-
-            <!-- <div class="modal-window-container"> -->
 
             <p class="modal-window-header">
                 Leave your contacts and we will call you back
@@ -599,6 +596,13 @@
     </div>
     <!-- </div> -->
 
+    <script>
+        var date = '2023.12.16';
+        var module = '5';
+        var modification = '019';
+        var currentDate = new Date().toDateString('yyyy.MM.dd');
+        document.getElementById('version').innerHTML = '[' + date + ']' + ' module.#' + module + '.' + modification;
+    </script>
 
 </body>
 

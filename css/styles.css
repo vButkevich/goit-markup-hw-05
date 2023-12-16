@@ -769,17 +769,19 @@ text {
   background: var(--IRIS, #4D5AE5);
 }
 */
-
 /* #endregion:subscribe */
+/* ------------------------------------------ */
+
+
 /* ------------------------------------------ */
 /* #region:modal */
 .modal {
-  display: none;
+  /* display: none; */
   position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  left: 0;
-  top: 0;
 
   background-color: rgba(46, 47, 66, 0.4);
   transition:
@@ -791,8 +793,6 @@ text {
   position: absolute;
   top: 50%;
   left: 50%;
-
-
   /* Для модального вікна в класі заданий стиль transform: translate(-50%, -50%) scale(1); */
   transform: translate(-50%, -50%) scale(1);
   /* для центрування елемента по вертикалі та горизонталі на веб-сторінці
@@ -824,8 +824,7 @@ text {
 }
 
 
-
-.modal-window-button {
+.modal-window-close {
   position: absolute;
   /* що встановлює позиції елемента відносно його батьківського елемента У кнопки в класі задано стиль*/
   top: 24px;
@@ -859,8 +858,8 @@ text {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-window-button:hover,
-.modal-window-button:focus {
+.modal-window-close:hover,
+.modal-window-closen:focus {
   /* що дозволяє задавати анімаційний ефект для зміни значень властивостей стилю При ховері на кнопку, */
   /* в класі заданий стиль*/
   background-color: #404bbf;
@@ -874,7 +873,7 @@ text {
   /* в класі заданий стиль border: none; */
 }
 
-.modal-window-svg {
+.modal-window-close-svg {
   /* width: 8px; */
   /* height: 8px; */
 
@@ -891,30 +890,11 @@ text {
 
 /* для плавної зміни кольору */
 
-.modal-window-button:hover .modal-window-svg,
-.modal-window-button:focus .modal-window-svg {
+.modal-window-close:hover .modal-window-close-svg,
+.modal-window-close:focus .modal-window-close-svg {
   fill: #ffffff;
 }
 
-.modal-window-container {
-  /* БЛЯДЬ ! ! ! ! кто так пишет ВАШУ Ж МАТЬ!!!! */
-  /*
- Для div модального вікна,
-  у класі заданий стиль
-     padding: 72px 24px 24px 24px;
-*/
-  padding: 72px 24px 24px;
-  /* 
-  для налаштування внутрішніх відступів для контенту (можна використовувати аналог 
-  padding-top: 72px;
-  padding-right: 24px;
-  padding-bottom: 24px;
-  padding-left: 24px;
-  
-  або 
-  padding: 72px 24px 24px; )
-   */
-}
 
 .modal-window-header {
   font-weight: 500;
