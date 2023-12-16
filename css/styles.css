@@ -1050,7 +1050,7 @@ text {
 
 
 /* modal-window-form-textarea-box */
-.modal-window-form-textarea-box {
+.modal-form-textarea-box {
   padding-bottom: 16px;
 }
 
@@ -1078,7 +1078,7 @@ text {
 }
 
 
-.modal-window-form-checkbox-box {
+.modal-form-checkbox-box {
   padding-bottom: 24px;
 }
 
