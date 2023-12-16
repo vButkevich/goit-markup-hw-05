@@ -824,7 +824,7 @@ text {
 }
 
 
-.modal-window-close {
+.modal-close {
   position: absolute;
   /* що встановлює позиції елемента відносно його батьківського елемента У кнопки в класі задано стиль*/
   top: 24px;
@@ -858,13 +858,13 @@ text {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-window-close:hover,
-.modal-window-close:focus {
+.modal-close:hover,
+.modal-close:focus {
   background-color: #404bbf;
   border: none;
 }
 
-.modal-window-close-svg {
+.modal-close-svg {
   /* width: 8px; */
   /* height: 8px; */
 
@@ -881,13 +881,13 @@ text {
 
 /* для плавної зміни кольору */
 
-.modal-window-close:hover .modal-window-close-svg,
-.modal-window-close:focus .modal-window-close-svg {
+.modal-close:hover .modal-close-svg,
+.modal-close:focus .modal-close-svg {
   fill: #ffffff;
 }
 
 
-.modal-window-header {
+.modal-header {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -897,14 +897,14 @@ text {
   margin-bottom: 16px;
 }
 
-/* .modal-window-form-container {
+/* .modal-form-container {
   margin-bottom: 8px;
 } */
-.modal-window-form-input-box {
+.modal-form-input-box {
   margin-bottom: 8px;
 }
 
-.modal-window-form-label {
+.modal-form-label {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -913,11 +913,11 @@ text {
   margin-bottom: 4px;
 }
 
-.modal-window-form-div {
+.modal-form-div {
   position: relative
 }
 
-.modal-window-form-input {
+.modal-form-input {
   width: 100%;
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -928,7 +928,7 @@ text {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-window-form-button {
+.modal-form-button {
 
   /*Для кнопки в класі заданий стиль*/
   display: block;
@@ -1001,7 +1001,7 @@ text {
 }
 
 /*
-.modal-window-form-label-user {
+.modal-form-label-user {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -1010,11 +1010,11 @@ text {
   margin-bottom: 4px;
 }
 
-.modal-window-form-div-user {
+.modal-form-div-user {
   position: relative
 }
 
-.modal-window-form-input-user {
+.modal-form-input-user {
   width: 100%;
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -1025,14 +1025,14 @@ text {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-window-form-input-name:hover,
-.modal-window-form-input-name:focus {
+.modal-form-input-name:hover,
+.modal-form-input-name:focus {
   border-color: #4D5AE5;
 }
 */
 /*  */
-/* .modal-window-form-input-svg */
-.modal-window-form-svg {
+/* .modal-form-input-svg */
+.modal-form-svg {
   width: 18px;
   height: 24px;
   position: absolute;
@@ -1043,18 +1043,18 @@ text {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-window-form-input:hover+svg,
-.modal-window-form-input:focus+svg {
+.modal-form-input:hover+svg,
+.modal-form-input:focus+svg {
   fill: #4D5AE5;
 }
 
 
-/* modal-window-form-textarea-box */
+/* modal-form-textarea-box */
 .modal-form-textarea-box {
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
-.modal-window-form-textarea {
+.modal-form-textarea {
   width: 100%;
   height: 120px;
   font-size: 12px;
@@ -1070,10 +1070,10 @@ text {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-window-form-textarea:hover,
-.modal-window-form-textarea:focus,
-.modal-window-form-input:hover,
-.modal-window-form-input:focus {
+.modal-form-textarea:hover,
+.modal-form-textarea:focus,
+.modal-form-input:hover,
+.modal-form-input:focus {
   border-color: #4D5AE5;
 }
 
@@ -1082,16 +1082,16 @@ text {
   padding-bottom: 24px;
 }
 
-/* .modal-window-form-checkbox-input {} */
+/* .modal-form-checkbox-input {} */
 
-.modal-window-form-checkbox-label {
+.modal-form-checkbox-label {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
 
-.modal-window-form-checkbox-label-span {
+.modal-form-checkbox-label-span {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -1103,12 +1103,12 @@ text {
   fill: transparent;
 }
 
-.modal-window-form-checkbox-link {
+.modal-form-checkbox-link {
   color: #4d5ae5;
 }
 
 /*
- .modal-window-form-checkbox-svg {
+ .modal-form-checkbox-svg {
   width: 10px;
   height: 8px;
 }
@@ -1121,14 +1121,14 @@ input[type="checkbox"]:checked+label>span {
 
 
 /*
-.modal-window-form-checkbox-input:checked .modal-window-form-checkbox-label-span {
+.modal-form-checkbox-input:checked .modal-form-checkbox-label-span {
   background-color: #404bbf;
   fill: #F4F4FD;
   border: none;
 }
 */
 /* 
-.modal-window-form-checkbox-input:checked {
+.modal-form-checkbox-input:checked {
   border: none;
   fill: #404bbf;
 }
