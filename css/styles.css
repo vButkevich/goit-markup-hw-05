@@ -229,6 +229,7 @@ img {
 /* url(../images/img-name.jpeg); */
 
 .hero {
+  width: 1440px;
   margin: 0 auto;
   background-image:
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
